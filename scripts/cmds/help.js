@@ -27,7 +27,7 @@ module.exports = {
     name: "help",
     aliases: ["menu"],
     version: "6.0",
-    author: "𝐒𝐈𝐅𝐀𝐓",
+    author: "SHISHIR ",
     shortDescription: "Show all available commands",
     longDescription: "Displays a categorized command list with a rotating video (different every time).",
     category: "system",
@@ -101,7 +101,7 @@ module.exports = {
         `╭┈─────┈─ ─┈────┈╮\n` +
         `  🌸 𝗖𝗢𝗠𝗠𝗔𝗡𝗗 𝗜𝗡𝗙𝗢 🌸\n` +
         `╰┈─────┈─ ─┈────┈╯\n\n` +
-        ` 🪷 𝐍𝐚𝐦𝐞: ${toSmallCaps(name)}\n` +
+        ` 🪷 𝐍𝐚𝐦𝐞: ${toSmallCaps(shishir)}\n` +
         ` 🪷 𝐂𝐚𝐭𝐞𝐠𝐨𝐫𝐲: ${toSmallCaps(category || "General")}\n` +
         ` 🪷 𝐀𝐥𝐢𝐚𝐬𝐞𝐬: ${aliases?.length ? aliases.join(", ") : "None"}\n` +
         ` 🪷 𝐕𝐞𝐫𝐬𝐢𝐨𝐧: ${version || "1.0"}\n` +
@@ -134,7 +134,8 @@ module.exports = {
       msg += `┕┈───┈──┈────┈𒐬\n\n`;
     }
 
-    msg += `╭┈───────┈┈ ೄྀ࿐┐\n` +
+    msg += `╭┈───────┈┈
+  ೄྀ࿐┐\n` +
            ` 🍄 𝐓𝐨𝐭𝐚𝐥: ${allCommands.size - 1}\n` +
            ` 🎀 𝐏𝐫𝐞𝐟𝐢𝐱: ${prefix}\n` +
            ` 🌸𝐒𝐭𝐚𝐲 𝐇𝐚𝐩𝐩𝐲 & 𝐁𝐞𝐚𝐮𝐭𝐢𝐟𝐮𝐥🌸\n` +
