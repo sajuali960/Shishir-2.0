@@ -17,11 +17,11 @@ module.exports = {
 		name: "admin",
 		aliases: ["adm"],
 		version: "2.0.0",
-		author: "SIFAT",
+		author: "shishir",
 		countDown: 3,
 		role: 2,
 		description: { en: "ᴍᴀɴᴀɢᴇ ʙᴏᴛ ᴀᴅᴍɪɴꜱ" },
-		category: "owner",
+		category: "shishir",
 		guide: {
 			en: "   {pn} add [@|ᴜɪᴅ|ʀᴇᴘʟʏ] — ᴀᴅᴅ ᴀᴅᴍɪɴ\n   {pn} remove [@|ᴜɪᴅ|ʀᴇᴘʟʏ] — ʀᴇᴍᴏᴠᴇ ᴀᴅᴍɪɴ\n   {pn} list — ʟɪꜱᴛ ᴀʟʟ ᴀᴅᴍɪɴꜱ\n   {pn} check [@|ᴜɪᴅ|ʀᴇᴘʟʏ] — ᴄʜᴇᴄᴋ ꜱᴛᴀᴛᴜꜱ"
 		}
